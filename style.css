@@ -1,0 +1,56 @@
+body {
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  background-color: #000000;
+  color: #800020;
+}
+
+h1, h2, h3, p {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+p {
+  color:#FDBB30;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: solid;
+  border-color: #800020;
+  border-radius: 5px;
+  background-color: #FDBB30;
+  color: #800020;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffce64;
+}
+
+button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.story {
+  max-width: 600px;
+  margin: auto;
+}
+
+#storyImage {
+  width: 50%;
+  height: 35vh;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+#storyText {
+  font-size: 40px;
+  margin: 5px 0;
+}
